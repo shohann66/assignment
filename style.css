@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+/* header part css */
+.banner{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.tittle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.tittle h2{
+    color:#fff;
+    font-size: 60px;
+}
+.button{
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 6px;
+    transition: 0.5s ease;
+}
+.btn:hover{
+    background: #0f0f0f;
+   color: #fff;
+}
+
+/* content part css */
+.content_top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9faffe2;
+    position: relative;
+    overflow: hidden;
+    padding: 80px 0;
+}
+.half_width{
+    width: 40%;
+}
+.half_width img {
+    width: 80%;
+    height: 100%;
+}
+.text_top h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.text_top h2{
+    font-size: 30px;
+    margin: 20px 0px;
+}
+.text_top p{
+    font-size: 19px;
+    line-height: 25px;
+    text-align: justify;
+    color: #1f1c1cc7;
+    font-family: 'Open Sans', sans-serif;
+}
+.text_top .list {
+    list-style-type: circle;
+    margin: 25px 0;
+}
+.text_top ul li{
+    font-size: 19px;
+    line-height: 25px;
+    text-align: justify;
+    color: #1f1c1cc7;
+    font-family: 'Open Sans', sans-serif;
+}
+.text_top .btn{
+    padding: 10px 30px;
+    background: rgba(219, 222, 7, 0.914);
+    color: #0f0f0f;
+    font-weight: 700;
+}
+.text_top .btn:hover{
+    background: rgba(38, 39, 1, 0.914);
+    color: #f1f1f1;
+}
+/* form area css*/
+.form_area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: #41636e4a;
+    position: relative;
+    padding: 80px 0;
+    text-align: center;
+}
+.heading{
+    margin-bottom: 40px;
+}
+.heading h1{
+    text-align: center;
+    font-size: 40px;
+}
+.half_width p{
+    font-size: 20px;
+    text-align: center;
+}
+.pera{
+    margin-bottom: 40px;
+}
+.input_area input{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 60px;
+    flex-direction: column;
+    width: 80%;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    background: #04670c1a;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.btn{
+    padding: 10px 30px;
+    background: rgba(3, 161, 66, 0.918);
+    color: #0f0f0f;
+    font-weight: 700;
+    border: none;
+}
+.text_top .btn:hover{
+    background: rgba(38, 39, 1, 0.914);
+    color: #f1f1f1;
+}
+/*Survice Area css*/
+.survice_area{
+    width: 100%;
+    background-color: #e9faffe2;
+    position: relative;
+    padding: 80px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.survice_area img{
+    width: 100%;
+    border-radius: 50%;
+    height: 300px;
+    overflow: hidden;
+}
+.survice_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.survice_item{
+    width: 350px;
+    margin: 80px 40px;
+}
+.survice_text .imge {
+    width: 10%;
+    height: 10%;
+
+}
