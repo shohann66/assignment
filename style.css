@@ -177,3 +177,105 @@
     height: 10%;
 
 }
+.survice_text h2{
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+.survice_item p{
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 35px;
+    letter-spacing: 2px;
+    color: #1a1818f0;
+   
+}
+.survice_area .btn{
+    padding: 20px 60px;
+    background-color: #fff;
+    border: 0.5px solid;
+    font-size: 19px;
+}
+.survice_area .btn:hover{
+    background-color: rgb(254, 123, 0);
+    color: #fff;
+}
+/* bottom content css*/
+.bottom_content{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.half_width{
+    width: 50%;
+    height: 700px;
+}
+.philosophy img{
+    width: 100%;
+    height: 100%;
+}
+.text_top{
+    background-color: rgba(1, 94, 20, 0.095);
+    padding: 40px;
+}
+.text_top h2{
+    text-align: center;
+    margin:50px 0;
+}
+.text_top p{
+    font-size: 17px;
+    line-height: 27px;
+    text-align: justify;
+}
+.text_top .btn{
+    padding: 20px 60px;
+    background-color: #fff;
+    border: 0.5px solid;
+    font-size: 16px;
+    margin-top: 90px;
+    margin-left: 125px;
+}
+/*therapy Mind css*/
+.therapy{
+    padding: 120px 0;
+    background-color: #355b413c;
+}
+.therapy h2{
+    font-size: 50px;
+    letter-spacing: 7px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+/* footer css*/
+.footer{
+    padding: 50px 0;
+    background-color: #6401013a;
+    display: flex;
+    align-items: center;
+   
+}
+.footer .logo img{
+    height: 80px;
+    width: 80px;
+    margin-left: 50px;
+}
+.menue ul{
+    display: flex;
+    margin-left: 50px;
+    justify-content: right;
+    margin-left: 200px;
+
+}
+.menue ul li{
+    list-style-type: none;
+    margin-left: 50px;
+}
+.menue ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #0f0f0fc9;
+    text-align: right;
+}
